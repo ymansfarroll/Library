@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "npx eslint lib test --ext .js --no-error-on-unmatched-pattern",
+    "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
