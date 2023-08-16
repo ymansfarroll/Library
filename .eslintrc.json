@@ -5,6 +5,7 @@
   },
   "extends": ["airbnb-base", "prettier"],
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "import/prefer-default-export": "any"
   }
 }
