@@ -4,6 +4,7 @@
     "node": true
   },
   "extends": ["airbnb-base", "prettier"],
+  "plugins": ["jsdoc"],
   "rules": {
     "no-console": "off",
     "import/prefer-default-export": ["error", { "target": "any" }],
