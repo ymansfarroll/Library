@@ -3,7 +3,7 @@
     "es2021": true,
     "node": true
   },
-  "extends": ["airbnb-base", "prettier"],
+  "extends": ["airbnb-base", "plugin:jsdoc/recommended", "prettier"],
   "plugins": ["jsdoc"],
   "rules": {
     "no-console": "off",
